@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: contoso-air-yusuf-config
+  namespace: sample-app-namespace-1754381842160
+  labels:
+    app.kubernetes.io/name: contoso-air-yusuf
+    kubernetes.azure.com/generator: devhub
+data:
